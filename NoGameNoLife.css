@@ -1,0 +1,53 @@
+//META{"name":"NoGameNoLife","description":"A theme by the number one weaboo for the number one german weaboo","version":"1.0"}*//{}
+/* "NoGameNoLife v1.0" by AliAliAli */
+/* Based on "Discord Reborn v4.30" by @Omniscient & "DarkMatter" by @Hammock */
+
+/* IMPORT CSS FROM GITHUB */
+@import url(https://gitcdn.xyz/repo/Zerthox/ClearVision/master/css/ClearVision_v5.min.css);
+/*
+---------------------------------------------------------------------------------------------------------------------------------------------
+IMPORTANT: CHANGE BETWEEN DARK AND LIGHT VERSION IN APPEARANCE SETTINGS!
+---------------------------------------------------------------------------------------------------------------------------------------------
+*/
+/*
+---------------------------------------------------------------------------------------------------------------------------------------------
+================ IMPORTANT LINKS =================
+Github: https://git.io/v6BHO
+Discord: https://git.io/vMnlu
+Wiki: https://git.io/vXTqM
+Latest version: https://git.io/v6Muk
+Changelog: https://git.io/v6r5N
+---------------------------------------------------------------------------------------------------------------------------------------------
+*/
+/*
+---------------------------------------------------------------------------------------------------------------------------------------------
+============== CUSTOMIZABLE COLORS ===============
+*/
+:root {
+	--main-color: #631a84;
+	--hover-color: #9930c9;
+    --background-blur: 0px;
+    --background-brightness: 75%;
+}
+/*
+--------------------------------------------------------------------------------------------------------------------------------------------
+*/
+/*
+---------------------------------------------------------------------------------------------------------------------------------------------
+========= CUSTOMIZABLE BACKGROUND IMAGE ==========
+*/
+body::after,
+.callout-backdrop,
+.user-popout::before,
+#user-profile-modal .header::before,
+#pubs-container::before,
+.auth-background,
+.auth-tiling-bg,
+.invite-modal .invite-splash,
+.radio-theme.light label,
+.radio-theme.dark label{
+    background-image: url(https://data.whicdn.com/images/239782655/large.gif) !important; /* IMPORTANT: Link must be HTTPS! */
+}
+/*
+--------------------------------------------------------------------------------------------------------------------------------------------
+*/
